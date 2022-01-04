@@ -1,0 +1,25 @@
+{
+  "name": "blog_with_khalil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "helmet": "^4.6.0",
+    "http-errors": "^1.8.0",
+    "mongoose": "^6.0.6",
+    "yup": "^0.32.11"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
